@@ -466,3 +466,99 @@ STEPS SECTION
     font-weight: 500;
     line-height: 2;
 }
+
+/*
+
+VALUES SECTION
+
+*/
+
+.values--row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.values--container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.values--description {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.values--description__img {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.vd--img {
+    width: 100%;
+}
+
+.values--description__header {
+    color: #243E63;
+    font-size: 36px;
+    margin: 16px 0px 0px;
+    font-weight: 900;
+    line-height: 1.25;
+}
+
+.values--description__para {
+    color: #7C8BA1;
+    font-size: 16px;
+    margin: 32px 0 0;
+    font-weight: 500;
+    line-height: 1.625;
+    margin-top: 2rem;
+}
+
+.values--description__para-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
+}
+
+.vdpi--container {
+    width: 100%;
+}
+
+.vdpi--container__sect {
+    display: flex;
+    justify-content: space-around
+}
+
+.values--description__icon-title {
+    color: #243E63;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+    font-weight: 700;
+}
+
+.vdp2 {
+    color: #718096;
+    font-size: 16px;
+    margin: 16px 0 0;
+    line-height: 1.625;
+    width: 100%;
+    max-width: 200px;
+}
+
+.vd--btn {
+    color: #f7fafc;
+    font-size: 14px;
+    background-color: #6415ff;
+    margin: 32px 0px 0px;
+    padding: 12px 32px;
+    border-radius: 999px;
+    width: fit-content;
+}
