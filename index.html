@@ -8,6 +8,7 @@
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"></script>
+      <script src="index.js"></script>
   </head>
   <body>
     <section id="nav__bar">
@@ -25,6 +26,33 @@
                         <li><a href="#" class="nav__link--anch nav__link--space">Login</a></li>
                         <li><a href="#" class="nav__link--anch-special nav__link--button">Sign Up</a></li>
                     </ul>
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                      </button>
+                      <div class="btn__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                          <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                          <li class="menu__list">
+                            <a href="#" class="menu__link no__cursor" onclick="closeMenu()">About</a>
+                          </li>
+                          <li class="menu__list">
+                            <a href="#" class="menu__link no__cursor" onclick="closeMenu()">Blog</a>
+                          </li>
+                          <li class="menu__list">
+                            <a href="#" class="menu__link no__cursor" onclick="closeMenu()">Pricing</a>
+                          </li>
+                          <li class="menu__list">
+                            <a href="#" class="menu__link no__cursor" onclick="closeMenu()">Contact Us</a>
+                          </li>
+                          <li class="menu__list">
+                            <a href="#" class="menu__link no__cursor" onclick="closeMenu()">Login</a>
+                          </li>
+                          <li class="menu__list">
+                            <a href="#" class="menu__link no__cursor" onclick="closeMenu()">Sign Up</a>
+                          </li>
+                        </ul>
                 </div>
             </div>
         </nav>
@@ -64,7 +92,6 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div class="features--services">
-    
                         <div class="features--text__card">
                             <span class="features--img">
                                 <img class="features--img__icon" src="/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
@@ -141,7 +168,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="quality__work">
         <div class="quality--work__row">
             <div class="quality--work__container">
                 <div class="qw--section__description">
@@ -165,7 +192,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="steps">
         <div class="steps--row">
             <div class="steps--container">
                 <div class="steps--img__container">
@@ -219,7 +246,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="values">
         <div class="values--row">
             <div class="values--container">
                 <div class="values--description">
@@ -273,7 +300,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="pricing">
         <div class="pricing--row">
             <div class="pricing--container">
                 <div class="pricing--headers">
@@ -347,7 +374,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="testimonials">
         <div class="testimonial--row">
             <div class="testimonial--container">
                 <div class="testimonial--img">
@@ -404,7 +431,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="faqs">
         <div class="faqs--row">
             <div class="faqs--container">
                 <div class="faqs--header">
@@ -422,7 +449,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="dev">
         <div class="dev--row">
             <div class="dev--container">
                 <div class="dev--description">
